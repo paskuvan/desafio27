@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'companies/index'
   resources :areas
   get 'categories/index'
   resources :categories
